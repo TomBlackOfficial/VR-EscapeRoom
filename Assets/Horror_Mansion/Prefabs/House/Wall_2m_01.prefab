@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5017345464338311969}
   - component: {fileID: 7081284053447319531}
   - component: {fileID: 5276846487189732821}
-  - component: {fileID: 6091588485803334167}
   m_Layer: 0
   m_Name: Wall_2m_01
   m_TagString: Untagged
@@ -99,22 +98,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5526616, y: 4.000001, z: 2}
   m_Center: {x: -0.2763308, y: 2.0000005, z: -1}
---- !u!205 &6091588485803334167
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8738454579247726142}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.2763308, y: 2.0000005, z: -1}
-  m_Size: 4.000001
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.02677778
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 7081284053447319531}
-  m_Enabled: 1

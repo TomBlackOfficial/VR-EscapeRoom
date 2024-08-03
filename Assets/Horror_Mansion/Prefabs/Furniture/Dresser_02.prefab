@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3477028278280698735}
-  - component: {fileID: 8510393057498500126}
   m_Layer: 0
   m_Name: Dresser_02
   m_TagString: Untagged
@@ -34,29 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!205 &8510393057498500126
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4254549663335113173}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0.45786455, y: 0.41496408, z: 0}
-  m_Size: 2.225277
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.32553065
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 3602359903577059785}
-  - screenRelativeHeight: 0.030449437
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 8423741979420291655}
-  m_Enabled: 1
 --- !u!1 &7897058704811919312
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +50,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8791382748901086334
 Transform:
   m_ObjectHideFlags: 0
