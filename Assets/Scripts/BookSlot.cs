@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class BookSlot : MonoBehaviour
 {
     public bool isUnlocked = false;
+    public string tagToUnlock;
 
     [SerializeField] private UnityEvent onUnlock;
 
@@ -16,7 +17,7 @@ public class BookSlot : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Key")
+        if (other.gameObject.tag == tagToUnlock)
         {
             Unlock();
         }
